@@ -1,0 +1,20 @@
+Package: crmSubpathway
+Type: Package
+Title: Identify cancer-related metabolic subpathways
+Version: 0.1.0
+Author: Xudong Han,
+  Junwei Han, Qingfei Kong
+Maintainer: Junwei Han <hanjunwei1981@163.com>
+Description: This function uses the k clique algorithm to split the metabolic pathways in the KEGG database into metabolic subpathways.
+    Subsequently, a stable metabolic subpathway activity matrix is constructed by GSVA or ssGSEA methods. Eventually, cancer-related metabolic subpathways are identified through differential analysis.
+License: GPL (>= 2)
+Encoding: UTF-8
+Depends: R (>= 2.10)
+LazyData: true
+BugReports: https://github.com/hanjunwei-lab/crmSubpathway/issues
+RoxygenNote: 7.1.0
+Imports: igraph,XML,igraph,parallel,limma,GSVA,pheatmap,stats,grDevices
+Suggests: graph, RBGL, knitr, rmarkdown
+VignetteBuilder: knitr
+NeedsCompilation: no
+Packaged: 2020-07-19 12:27:22 UTC; 12859
