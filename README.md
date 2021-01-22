@@ -14,5 +14,5 @@ install_github("hanjunwei-lab/crmSubpathway")
 use：library(crmSubpathway)
 ```
 
-> `crmSubpathway` is published in Frontiers in Oncology. Please cite the following article when using `crmSubpathway`:  
+The `crmSubpathway` is published in Frontiers in Oncology. Please cite the following article when using `crmSubpathway`:  
 Xudong Han, Donghua Wang, Qingfei Kong and Junwei Han. Inference of Subpathway Activity Profiles Reveals Metabolism Abnormal Subpathway Regions in Glioblastoma Multiforme. Frontiers in Oncology. https://doi.org/10.3389/fonc.2020.01549. 
